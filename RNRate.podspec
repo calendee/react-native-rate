@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
   s.license      = package['license']
   s.author       = { "author" => package['author']['name'] }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/KjellConnelly/react-native-rate.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/calendee/react-native-rate.git", :branch => "master" }
   s.source_files = "ios/*.{h,m}"
   s.requires_arc = true
 
-  s.dependency "React"
+  # s.dependency "React"
 
 end
